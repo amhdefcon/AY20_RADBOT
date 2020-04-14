@@ -64,7 +64,7 @@ e1+=2
 'IMU Data ramps from 0 to 1500  
 
 if gv < 500 then 
-    print("bruh") 
+    print("Steve bruh") 
 
     gv += ramp*10  
 end if 
@@ -72,7 +72,7 @@ end if
 'Ranges between 500 to 1000 
 
 if 500 <= gv and gv <= 1000 then 
-    print("JR time") 
+    print("Steve time") 
 
     gv += ramp*5  
 
@@ -81,7 +81,7 @@ end if
 'Ramps between 1000 to 1500   
 
 if 1000 <= gv and gv <= 1500 then 
-    print("JR wya") 
+    print("Steve") 
     gv += ramp*5  
 end if   
 'decreasing gv 
